@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+	<LinearLayout 
+	    android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+        
+            <RelativeLayout 
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp" >
+                
+                <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:paddingLeft="10dp"
+                   android:text="Total Question: "
+                   android:layout_alignParentLeft="true" />
+
+                <TextView
+                   android:id="@+id/lbltot_que"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:paddingRight="10dp"
+                   android:textStyle="bold" 
+                   android:layout_alignParentRight="true" />
+                              
+            </RelativeLayout>
+                       
+            <RelativeLayout 
+            	android:layout_width="fill_parent"
+            	android:layout_height="wrap_content"
+            	android:layout_margin="5dp" >
+               
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:text="Total Correct: "
+                    android:layout_alignParentLeft="true" />
+
+                <TextView
+                    android:id="@+id/lbltot_correct"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="10dp"
+                    android:textStyle="bold"
+                    android:layout_alignParentRight="true" />
+                           
+            </RelativeLayout>
+            
+            <RelativeLayout 
+            	android:layout_width="fill_parent"
+            	android:layout_height="wrap_content"
+            	android:layout_margin="5dp" >
+                
+                <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:paddingLeft="10dp"
+                   android:text="Total Incorrect: "
+                   android:layout_alignParentLeft="true" />
+
+               <TextView
+                   android:id="@+id/lbltot_incorrect"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:paddingRight="10dp"
+                   android:textStyle="bold"
+                   android:layout_alignParentRight="true" />
+                            
+                    
+            </RelativeLayout>
+
+            <RelativeLayout 
+            	android:layout_width="fill_parent"
+            	android:layout_height="wrap_content"
+            	android:layout_margin="5dp"
+            	android:id="@+id/rowtot_timetaken" >
+            
+            	<TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:paddingLeft="10dp"
+                   android:text="Total Time Taken: "
+                   android:layout_alignParentLeft="true" />
+
+               <TextView
+                   android:id="@+id/lbltot_timetaken"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:paddingRight="10dp"
+                   android:textStyle="bold"
+                   android:layout_alignParentRight="true" />
+               
+               
+            </RelativeLayout>
+
+            <RelativeLayout 
+            	android:layout_width="fill_parent"
+            	android:layout_height="wrap_content"
+            	android:layout_margin="5dp"
+            	android:id="@+id/rowtot_timetaken" >
+            
+            	<TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:paddingLeft="10dp"
+                   android:text="Average Time Taken: "
+                   android:layout_alignParentLeft="true" />
+
+               <TextView
+                   android:id="@+id/lblavg_timetaken"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:paddingRight="10dp"
+                   android:textStyle="bold"
+                   android:layout_alignParentRight="true" />
+               
+               
+            </RelativeLayout>
+    </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

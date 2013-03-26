@@ -1,0 +1,68 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    <TextView
+        android:id="@+id/txtTimer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/padding_medium"
+        android:text="@string/hello_world" />
+
+    <TextView
+        android:id="@+id/txtNo1"
+        android:layout_below="@id/txtTimer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/padding_medium"
+        android:text="@string/hello_world" />
+    
+    <TextView
+        android:id="@+id/txtOperation"
+        android:layout_below="@id/txtNo1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/padding_medium"
+        android:text="@string/hello_world" />    
+
+   <TextView
+        android:id="@+id/txtNo2"
+        android:layout_below="@id/txtOperation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/padding_medium"
+        android:text="@string/hello_world" />
+   
+   <EditText
+        android:id="@+id/txtAns"
+        android:layout_below="@id/txtNo2"
+        android:inputType="number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/padding_medium"
+        android:hint="Ans" />
+   
+   <ImageButton
+        android:id="@+id/nextque"
+        android:layout_below="@id/txtAns"
+        android:contentDescription="next"
+        android:src="@drawable/nextque"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+   
+   <ImageButton
+        android:id="@+id/submittest"
+        android:layout_below="@id/nextque"
+        android:contentDescription="Submit Test"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+   
+    <TextView
+        android:id="@+id/txtTimes"
+        android:layout_below="@id/submittest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/padding_medium"
+        android:text="@string/hello_world" />
+</RelativeLayout>
